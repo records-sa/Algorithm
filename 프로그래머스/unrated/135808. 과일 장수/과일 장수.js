@@ -1,5 +1,5 @@
 function solution(k, m, score) {
-    // 1. score 배열 오름차순으로 정렬
+    // 1. score 배열 내림차순으로 정렬
     let arrScore = score.sort((a, b) => b - a);
     // 2. m 만큼 나눠서 박스가 몇갠지 구하기
     let appleBox = Math.floor(arrScore.length / m);
