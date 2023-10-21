@@ -9,3 +9,4 @@ function solution(arr, query) {
     }
     return arr;
 }
+
