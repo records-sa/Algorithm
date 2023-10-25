@@ -2,7 +2,7 @@ function solution(arr) {
     for (let i = 0; i < arr.length; i++) {
         const lengthRow = arr.length;
         const lengthColumn = arr[i].length;
-        console.log(lengthRow, lengthColumn)
+        
         if (lengthRow > lengthColumn) {
             const columnToAdd = lengthRow - lengthColumn;
             for (let j = 0; j < columnToAdd; j++) {
