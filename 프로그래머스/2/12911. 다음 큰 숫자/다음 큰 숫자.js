@@ -6,7 +6,7 @@ function solution(n) {
     const binaryN = n.toString(2);
     const onesCount = countOnes(binaryN);
     
-    while (true) {
+    while(true) {
         n++;
         const binaryNext = n.toString(2);
         
