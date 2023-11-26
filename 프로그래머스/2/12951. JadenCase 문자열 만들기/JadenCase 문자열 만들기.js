@@ -1,5 +1,5 @@
 function solution(s) {
-    let arrS = s.split(' ');
+    const arrS = s.split(' ');
     let toJadenCase = '';
     
     for (let i = 0; i < arrS.length; i++) {
