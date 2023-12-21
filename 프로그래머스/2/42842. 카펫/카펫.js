@@ -9,30 +9,3 @@ function solution(brown, yellow) {
     const y = yellow / x;
     return [Math.max(x + 2, y + 2), Math.min(x + 2, y + 2)];
 }
-
-
-
-// 테스트 케이스 통과 못한 코드
-
-// function solution(brown, yellow) {
-//     const divisor = [];
-//     const carpet = brown + yellow;
-//     for (let i = carpet; i > 0; i--) {
-//         if (carpet % i === 0) {
-//             divisor.push(i);
-//         }
-//     }
-//     console.log(divisor)
-//     const quadrangle = [];
-//     const width = Math.floor(divisor.length / 2);
-//     console.log(width)
-//     if (divisor.length % 2 !== 0) {
-//         quadrangle.push(divisor[width]);
-//         quadrangle.push(divisor[width]);
-//     } else {
-//         quadrangle.push(divisor[width - 1]);
-//         quadrangle.push(divisor[width]);
-//     }
-    
-//     return quadrangle;
-// }
