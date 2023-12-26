@@ -5,6 +5,7 @@ function solution(k, m, score) {
     const appleBox = Math.floor(arrScore.length / m);
     // 3. 사과 박스에서 가장 낮은 점수(m-1 번째 인덱스) 찾아서 배열에 넣기
     const applePrice = [];
+    
     for (i = 1; i <= appleBox; i++) {
         applePrice.push(arrScore[(m * i) - 1]);
     }
